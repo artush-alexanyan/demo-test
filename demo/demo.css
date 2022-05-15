@@ -1,0 +1,77 @@
+html{
+    box-sizing: border-box;
+    font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#navbar{
+    height: 72px;
+    border-bottom: 1px solid rgb(213,224,213);
+}
+#navbar nav{
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navbar nav img{
+    height: 20px;
+}
+.row_wrapper{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;-
+}
+#login  button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.with_google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4285f4;
+    border: none;
+}
+/* .with_google span{
+    margin-left: 86px;
+} */
+img.with_google_img{
+    background-color: transparent;
+    height: 20px;
+}
+.with_email{
+    color: white;
+    background-color: rgb(20,168,0);
+    border: none;
+}
+.with_apple{
+    margin-top: 20px;
+}
+#login form button{
+    margin-top: 20px;
+}
+#login input{
+    width: 91%;
+    padding: 15px;
+}
+.card{
+    border: 1px solid rgb(213,224,213);
+    padding: 60px;
+}
+.hr_wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+}
+.hr{
+    height: 1px;
+    border-bottom: 1px solid rgb(213,224,213);
+}
