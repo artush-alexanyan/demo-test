@@ -21,6 +21,9 @@ html{
     justify-content: center;
     align-items: center;
 }
+#login .card{
+    border-radius: 10px;
+}
 #login h1 {
     text-align: center;
     font-size: 26px;
@@ -40,9 +43,12 @@ html{
     background-color: #4285f4;
     border: none;
 }
-/* .with_google span{
-    margin-left: 86px;
-} */
+.with_apple{
+    border: 1px solid black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
 img.with_google_img{
     background-color: transparent;
     height: 20px;
@@ -66,12 +72,19 @@ img.with_google_img{
     border: 1px solid rgb(213,224,213);
     padding: 60px;
 }
+.card_body{
+    border-bottom: 1px solid rgb(213,224,213);
+}
 .hr_wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 15px 0 15px 0;
 }
 .hr{
     height: 1px;
-    border-bottom: 1px solid rgb(213,224,213);
+    width: 90px;
+    border-bottom: 1px solid rgb(215, 224, 213);
+}
+.or{
+    margin-bottom: 10px;
 }
