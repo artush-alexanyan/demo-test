@@ -16,7 +16,7 @@ html{
     height: 20px;
 }
 .row_wrapper{
-    height: 80vh;
+    height: 100vh;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -44,15 +44,12 @@ html{
     background-color: #4285f4;
     border: none;
 }
-<<<<<<< HEAD
 .with_apple{
     border: 1px solid black;
     background-color: white;
     font-size: 15px;
     font-weight: 600;
 }
-=======
->>>>>>> 6aba5aef73cdffb00bc9591e69670f1e71eff42e
 img.with_google_img{
     background-color: transparent;
     height: 20px;
@@ -72,8 +69,10 @@ img.with_google_img{
     margin-top: 20px;
 }
 #login input{
-    width: 91%;
-    padding: 15px;
+    width: 92%;
+    border-radius: 10px;
+    border: 1px solid rgb(213,224,213);
+    padding: 11px;
 }
 .card{
     border: 1px solid rgb(213,224,213);
