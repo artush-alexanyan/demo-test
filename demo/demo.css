@@ -16,7 +16,8 @@ html{
     height: 20px;
 }
 .row_wrapper{
-    height: 70vh;
+    height: 80vh;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +28,7 @@ html{
 #login h1 {
     text-align: center;
     font-size: 26px;
-    font-weight: 500;-
+    font-weight: 500;
 }
 #login  button{
     width: 100%;
@@ -43,12 +44,15 @@ html{
     background-color: #4285f4;
     border: none;
 }
+<<<<<<< HEAD
 .with_apple{
     border: 1px solid black;
     background-color: white;
     font-size: 15px;
     font-weight: 600;
 }
+=======
+>>>>>>> 6aba5aef73cdffb00bc9591e69670f1e71eff42e
 img.with_google_img{
     background-color: transparent;
     height: 20px;
@@ -60,6 +64,9 @@ img.with_google_img{
 }
 .with_apple{
     margin-top: 20px;
+    border: 1px solid rgb(213,224,213);
+    font-size: 15px;
+    font-weight: 600;
 }
 #login form button{
     margin-top: 20px;
@@ -70,7 +77,8 @@ img.with_google_img{
 }
 .card{
     border: 1px solid rgb(213,224,213);
-    padding: 60px;
+    border-radius: 10px;
+    padding: 30px 100px 100px 100px;
 }
 .card_body{
     border-bottom: 1px solid rgb(213,224,213);
@@ -82,9 +90,26 @@ img.with_google_img{
 }
 .hr{
     height: 1px;
+<<<<<<< HEAD
     width: 90px;
     border-bottom: 1px solid rgb(215, 224, 213);
 }
 .or{
     margin-bottom: 10px;
+=======
+    border-bottom: 1px solid rgb(213,224,213);
+}
+.card_footer{
+    border-top: 1px solid rgb(213,224,213);
+    margin-top: 30px;
+}
+.card_footer button{
+    border: 1px solid rgb(20,168,0);
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.card_footer .hr_wrapper{
+    margin-top: 30px;
+>>>>>>> 6aba5aef73cdffb00bc9591e69670f1e71eff42e
 }
